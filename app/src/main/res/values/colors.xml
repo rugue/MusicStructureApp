@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the All Songs category -->
+    <color name="all_songs">#FD8E09</color>
+
+    <!-- Background color for the Search Music category -->
+    <color name="search_music">#379237</color>
+
+    <!-- Background color for the Albums category -->
+    <color name="albums">#8800A0</color>
+
+    <!-- Background color for the Payments category -->
+    <color name="payments">#16AFCA</color>
+</resources>

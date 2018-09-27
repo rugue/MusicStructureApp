@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlbumActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/the_hill"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/all_songs"
+            android:gravity="center"
+            android:text="@string/the_hill" />
+
+        <TextView
+            android:id="@+id/hymnbook"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/albums"
+            android:gravity="center"
+            android:text="@string/hymnbook" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/black_panther"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/payments"
+            android:gravity="center"
+            android:text="@string/black_panther" />
+
+        <TextView
+            android:id="@+id/loose_blues"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/search_music"
+            android:gravity="center"
+            android:text="@string/loose_blues" />
+    </LinearLayout>
+
+</LinearLayout>

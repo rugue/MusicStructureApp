@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Music Structure App</string>
+    <string name="payments">Payments</string>
+    <string name="albums">Albums</string>
+    <string name="all_songs">All Songs</string>
+    <string name="search_music_here">You can Search your Music here</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="search_music">Search Music</string>
+    <string name="song_playing">Selected Song is now Playing</string>
+    <string name="payment">You can pay for Songs here</string>
+    <string name="press">Play song</string>
+
+
+    <!--Albums-->
+    <string name="the_hill">The Hill</string>
+    <string name="hymnbook">Hymnbook</string>
+    <string name="black_panther">Black Panther</string>
+    <string name="loose_blues">Loose Blues</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicstructureapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllSongs"
+            android:label="@string/all_songs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/now_playing" />
+        <activity
+            android:name=".AlbumActivity"
+            android:label="@string/albums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/payments"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SearchMusicActivity"
+            android:label="@string/search_music"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".TheHillAlbum"
+            android:label="@string/the_hill"
+            android:parentActivityName=".AlbumActivity" />
+        <activity
+            android:name=".HymnbookAlbum"
+            android:label="@string/hymnbook"
+            android:parentActivityName=".AlbumActivity" />
+        <activity
+            android:name=".BlackPantherAlbum"
+            android:label="@string/black_panther"
+            android:parentActivityName=".AlbumActivity" />
+        <activity
+            android:name=".LooseBluesAlbum"
+            android:label="@string/loose_blues"
+            android:parentActivityName=".AlbumActivity" />
+    </application>
+
+</manifest>
